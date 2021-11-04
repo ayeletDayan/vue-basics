@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>vue-basics</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vue-basics</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <body>
+        <div id="my-app">
+            <h1>Text</h1>
+            <my-time></my-time>
+            <!-- <count-down v-bind:time="startingTime"></count-down> -->
+        </div>
 
-<body>
-    <h1>show-time</h1>
-
-    <div id="app">
-        <h2>{{ msg }}</h2>
-
-    </div>
-
-    <script src="lib/vue.js"></script>
-    <script src="js/main.js" type="module"></script>
-</body>
-
+        <script src="lib/vue.js"></script>
+        <script src="js/main.js" type="module"></script>
+    </body>
 </html>

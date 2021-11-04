@@ -2,3 +2,13 @@ body {
     background-color: rgba(211, 151, 196, 0.808);
     font-family: monospace, Helvetica, sans-serif;
 }
+
+
+.light{
+    background-color: rgb(155, 155, 199);
+}
+
+.dark{
+    background-color: rgb(42, 42, 42);
+    color: whitesmoke;
+}

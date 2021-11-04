@@ -1,18 +1,12 @@
-
-// import './cmps/simple-counter.cmp.js'
-
+import './cmps/time.cmp.js';
 
 const options = {
-    el: '#app',
+    el: '#my-app',
     data() {
         return {
-            msg: 'Hola!',
-        }
+            startingTime: Date.now(),
+        };
     },
-    methods: {
-    },
-    computed: {
-    }
-}
+};
 
-new Vue(options)
+new Vue(options);
