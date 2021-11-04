@@ -1,9 +1,8 @@
 Vue.component('my-time', {
     template: `
-    <div v-bind:class="getMode" v-on:click="onHandleClick()">
-        <h2>{{ timeToShow }}</h2>
-        {{isDarkMode}}
-        <img v-bind:src="getSeason" />
+    <div v-bind:class="getMode" v-on:click="onHandleClick()">      
+    <img v-bind:src="getSeason"/>
+    <h2>{{ timeToShow }}</h2>
     </div>
     `,
     data() {
@@ -35,8 +34,6 @@ Vue.component('my-time', {
             m = this.checkTime(m);
             s = this.checkTime(s);
             return h + ':' + m + ':' + s;
-            // document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
-            // setTimeout(startTime, 1000);
         },
         getSeason() {
             const month = this.time.getMonth();

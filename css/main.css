@@ -1,6 +1,9 @@
 body {
     background-color: rgba(211, 151, 196, 0.808);
     font-family: monospace, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
 }
 
 
@@ -11,4 +14,17 @@ body {
 .dark{
     background-color: rgb(42, 42, 42);
     color: whitesmoke;
+}
+
+.red{
+    background-color: rgb(42, 42, 42);
+    color: red;
+}
+
+img{
+    margin-top: 20px;
+}
+
+div{
+    padding: 20px;
 }

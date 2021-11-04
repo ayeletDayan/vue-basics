@@ -10,10 +10,13 @@
 
     <body>
         <div id="my-app">
-            <h1>Text</h1>
+            <h1>EX3</h1>
+            <who-watch></who-watch>
+            <h1>EX2</h1>
+            <count-down v-on:due="log" v-bind:time="startingTime"></count-down>
+            <h1>EX1</h1>
             <my-time></my-time>
-            <!-- <count-down v-bind:time="startingTime"></count-down> -->
-        </div>
+        </div>        
 
         <script src="lib/vue.js"></script>
         <script src="js/main.js" type="module"></script>
