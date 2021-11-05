@@ -22,7 +22,7 @@ Vue.component('who-watch', {
         },
         addUser() {
             const num = Date.now() % 1000
-            this.users.push({ id: 'p' + num, name: `User ${num}`})
+            this.users.push({ id: 'p' + num, name: `User ${num}`, img: 'img/logo.png', tvShows:[]})
         }
 
     }
