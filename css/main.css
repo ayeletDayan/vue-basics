@@ -23,19 +23,50 @@ body {
 
 img{
     margin-top: 20px;
+    width: 200px;
 }
 
 div{
     padding: 20px;
 }
 
-.user-list{
+.user-list {
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+
 }
 
 button{
- height: 20px;   
+ height: 40px;
+ background-color: black;
+ color: whitesmoke;
+ box-shadow: 3px 3px 3px whitesmoke;
+ font-size: 20px;   
+}
+
+.user-preview *{    
+    box-shadow: 3px 3px 3px 3px rgb(42, 42, 42);
+    background-color: rgba(64, 128, 224, 0.295);
+    margin: 20px;   
+    font-size: 20px ;
+    margin-bottom: 20px;
+}
+
+.user {
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgb(42, 42, 42);
+    margin: 20px;   
+    font-size: 20px ;
+    margin-bottom: 20px;
+}
+
+.hide-tv{
+    display: none;
+}
+
+.show-tv{
+    display: block;
+    background-color: rgba(255, 255, 0, 0.479);
 }
