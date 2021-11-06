@@ -16,12 +16,10 @@ Vue.component('user-preview', {
     
     methods: {  
         setNickname(){
-            console.log('nickname');
             this.user.name = prompt('Set Nickname')
         },
 
         setTvShows(){
-            console.log('TV');
             this.isShown = !this.isShown;            
         }
 
