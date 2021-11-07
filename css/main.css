@@ -62,15 +62,6 @@ button{
     margin-bottom: 20px;
 }
 
-.hide-tv{
-    display: none;
-}
-
-.show-tv{
-    display: block;
-    background-color: rgba(255, 255, 0, 0.479);
-}
-
 .mouse{
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px rgb(42, 42, 42);
